@@ -1,0 +1,29 @@
+{
+  "name": "kiwee/shopware-demo-plugin",
+  "description": "KiweeDemo",
+  "authors": [
+    {
+      "name": "Kiwee Software sp. z o.o.",
+      "email": "hi@kiwee.eu",
+      "homepage": "https://kiwee.eu"
+    }
+  ],
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "version": "0.0.2",
+  "require": {
+    "shopware/core": "~6.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kiwee\\KiweeDemo\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Kiwee\\KiweeDemo\\KiweeDemo",
+    "label": {
+      "de-DE": "Kiwee Demo Plugin",
+      "en-GB": "Kiwee Demo plugin"
+    }
+  }
+}

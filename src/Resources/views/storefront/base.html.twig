@@ -1,0 +1,6 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+{% block base_header_inner %}
+    <div class="topbar">&nbsp;{{ page.header.extensions.topbar.topbarText }}</div>
+    {{ parent() }}
+{% endblock %}
