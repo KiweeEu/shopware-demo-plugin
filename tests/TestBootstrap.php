@@ -1,8 +1,8 @@
 <?php
-
 declare(strict_types=1);
 
-use Shopware\Core\TestBootstrapper;
+require_once __DIR__ . '/TestBootstrapper.php';
+use Kiwee\KiweeDemo\Test\TestBootstrapper;
 
 $loader = (new TestBootstrapper())
     ->setForceInstallPlugins(true)
